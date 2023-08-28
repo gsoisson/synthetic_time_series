@@ -1,3 +1,29 @@
 # Synthetic Time Series
 
-We will use GANs to generate synthetic financial time series. We will train a GAN on a dataset of S&P500 returns, and then train an LSTM model on the synthetic time series we generated, to see whether it performs as well as an LSTM model trained on a dataset of real S&P500 returns.
+We use GANs to generate synthetic time series of S&P500 returns. Then we train a LSTM model on the synthetic returns to see whether it performs better than a LSTM model trained on real returns.
+
+# Results
+
+## Time Series Generated
+
+![image info](./time_series_generated.png)
+
+We have generated a realistic time series!
+
+## Time Series Prediction With LSTMs
+
+### LSTM Trained On Synthetic Returns
+
+![image info](./prediction_synthetic_data.png)
+
+The root mean squared error is 31.5.
+
+### LSTM Trained On Real Returns
+
+![image info](./prediction_real_data.png)
+
+The root mean squared error is 92.2.
+
+## Conclusion
+
+We achieved a 3x lower RMSE by training a LSTM model on our synthetic data than on real data!
