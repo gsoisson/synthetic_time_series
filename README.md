@@ -1,6 +1,9 @@
-# Synthetic Time Series
+# Synthetic Times Series Generation
 
-We use GANs to generate synthetic time series of S&P500 returns. Then we train a LSTM model on the synthetic returns to see whether it performs better than a LSTM model trained on real returns.
+## Context
+
+Modelling in finance is a challenging task: the data often has complex statistical properties and its inner workings are largely unknown. Deep learning algorithms are making progress in the field of data-driven modelling, but the lack of sufficient data to train these models is currently holding back several new applications. Generative Adversarial Networks (GANs) are a neural network architecture family that has achieved good results in image generation and is being successfully applied to generate time series and other types of financial data.  
+The purpose of this project is to use GANs to generate synthetic time series of S&P500 returns. Then we will train a LSTM model on the synthetic returns to see whether it performs better than a LSTM model trained on real returns.
 
 # Results
 
@@ -8,7 +11,7 @@ We use GANs to generate synthetic time series of S&P500 returns. Then we train a
 
 ![image info](./images/time_series_generated.png)
 
-We have generated a realistic time series!
+We have generated a realistic time series !
 
 ## Time Series Prediction With LSTMs
 
