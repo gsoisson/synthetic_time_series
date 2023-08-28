@@ -6,7 +6,7 @@ We use GANs to generate synthetic time series of S&P500 returns. Then we train a
 
 ## Time Series Generated
 
-![image info](./time_series_generated.png)
+![image info](./images/time_series_generated.png)
 
 We have generated a realistic time series!
 
@@ -14,13 +14,13 @@ We have generated a realistic time series!
 
 ### LSTM Trained On Synthetic Returns
 
-![image info](./prediction_synthetic_data.png)
+![image info](./images/prediction_synthetic_data.png)
 
 The root mean squared error is 31.5.
 
 ### LSTM Trained On Real Returns
 
-![image info](./prediction_real_data.png)
+![image info](./images/prediction_real_data.png)
 
 The root mean squared error is 92.2.
 
